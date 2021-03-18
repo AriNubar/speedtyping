@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Speed Typing</title>
+  </head>
+  <body>
+
+
+
+
+    <div class="container">
+      <div class="info-display" id="info-display">
+        <div class="timer" id="timer">Timer: 0</div>
+        <div class="backspace" id="backspace"> Backspace: 0</div>
+        <div class="average-speed" id="average-speed"> Average (lps/wpm): 0.00</div>
+      </div>
+
+      <div class="quote-display" id= "quote-display"></div>
+
+      <textarea id="quote-input" class="quote-input" autofocus></textarea>
+      <table class="charts">
+        <tr>
+          <td id="chart-table"><div id="lps-chart"></div></td>
+          <td id="chart-table"><div id="wpm-chart"></div></td>
+        </tr>
+
+      </table>
+
+
+      <div class="stat-display" id="stat-display">
+        <table class="stats" id="stats"style="width:100%">
+          <tr>
+            <th>#</th>
+            <th>Quote</th>
+            <th>Quote Length</th>
+            <th>Time</th>
+            <th>Speed (lps / wpm)</th>
+            <th>Backspace</th>
+            <th>Backspace per letter</th>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+    <br><br>
+
+    <script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+
+
+  </body>
+</html>
